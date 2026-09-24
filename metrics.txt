@@ -1,0 +1,23 @@
+Mental Health Detection - Model Evaluation
+==================================================
+
+Accuracy: 0.7334
+
+Classification Report:
+                      precision    recall  f1-score   support
+
+             Anxiety       0.81      0.72      0.76       724
+             Bipolar       0.88      0.56      0.68       500
+          Depression       0.65      0.71      0.68      3017
+              Normal       0.83      0.95      0.89      3187
+Personality disorder       0.89      0.32      0.47       179
+              Stress       0.64      0.31      0.42       459
+            Suicidal       0.65      0.61      0.63      2128
+
+            accuracy                           0.73     10194
+           macro avg       0.76      0.60      0.65     10194
+        weighted avg       0.73      0.73      0.72     10194
+
+
+Dataset rows used: 50966
+Classes: ['Anxiety', 'Bipolar', 'Depression', 'Normal', 'Personality disorder', 'Stress', 'Suicidal']
